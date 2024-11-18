@@ -1,7 +1,7 @@
 const lastname = document.querySelector("#lastname");
 
-lastname.addEventListener("keyup", handleMontreValeur);
+lastname.addEventListener("keyup", handleKeyupMontreValeur);
 
-function handleMontreValeur(event){
+function handleKeyupMontreValeur(event){
     console.log(event.target.value);
 }

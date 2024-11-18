@@ -1,7 +1,7 @@
 const lastname = document.querySelector('#lastname');
 
-lastname.addEventListener("focusout", handleFocusLoss);
+lastname.addEventListener("focusout", handleFocusoutEnDehorsDeLaDiv);
 
-function handleFocusLoss(){
+function handleFocusoutEnDehorsDeLaDiv(){
     alert("Merci de votre participation !")
 }
