@@ -1,8 +1,8 @@
-const imgs = document.querySelectorAll(".container img");
+const imgs = document.querySelectorAll("div.container img");
 
 
 
-imgs.forEach(img => {
+imgs.forEach((img) => {
     img.addEventListener("mouseover", handleMouseEnter);
     img.addEventListener("mouseout", handleMouseOut);
 });
