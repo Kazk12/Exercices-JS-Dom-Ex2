@@ -1,4 +1,4 @@
-const bouton = document.querySelector("form button");
+const bouton = document.querySelector("#Raz");
 
 let textes = document.querySelectorAll("form input");
 
