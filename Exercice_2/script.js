@@ -1,6 +1,6 @@
 const lastname = document.querySelector('#lastname');
 
-lastname.addEventListener("focusout", handleFocusoutEnDehorsDeLaDiv);
+lastname.addEventListener("blur", handleFocusoutEnDehorsDeLaDiv);
 
 function handleFocusoutEnDehorsDeLaDiv(){
     alert("Merci de votre participation !")
